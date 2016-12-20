@@ -1,0 +1,10 @@
+project(dontpanic C)
+cmake_minimum_required(VERSION 2.6)
+
+add_subdirectory(computeChecksums)
+add_subdirectory(encryptSections)
+add_subdirectory(cryptor)
+add_subdirectory(stripBinary)
+add_subdirectory(convertToFile)
+add_subdirectory(woodenhouse)
+add_subdirectory(trouble)
